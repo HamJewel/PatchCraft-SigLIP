@@ -18,7 +18,7 @@
 ## 模型配置
 
 - **SigLIP-PatchCraft**模型的**SigLIP**模型配置信息位于`./src/Configs`目录中，格式为json。
-- **SigLIP-PatchCraft**模型权重位于`./src/Configs/best.pt`。
+- **SigLIP-PatchCraft**模型权重位于`./src/Configs/best.pt`(需下载)。
 - 模型实现代码位于`./src/Model`目录中。
 
 <img src="./doc/imgs/11.png" style="zoom: 33%;" />
@@ -28,6 +28,10 @@
 
 
 ## 运行示例
+
+模型权重(780.62MB)下载链接: https://pan.baidu.com/s/1dTe-ozABNI95nXTeSFV-bA?pwd=ernh	提取码: ernh
+
+下载模型权重`best.pt`后，迁移至`./src/Configs`目录中。
 
 在父目录中执行终端命令`python ./src/main.py`，即可对`./testdata`目录下的图片进行预测，预测结果将保存在`./cla_pre.csv`。
 
