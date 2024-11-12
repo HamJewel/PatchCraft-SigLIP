@@ -23,8 +23,7 @@ class Transform:
     def __init__(self, size=(512, 512), train=True):
         if train:
             self.tf1 = tf.Compose([
-                tf.RandomResizedCrop(size=size, scale=(0.9, 1.0), ratio=(3 / 4, 4 / 3),
-                                     interpolation=tf.InterpolationMode.BICUBIC),
+                tf.RandomResizedCrop(size=size, scale=(0.9, 1.0), interpolation=tf.InterpolationMode.BICUBIC),
                 tf.RandomHorizontalFlip(p=0.5)
             ])
         else:
