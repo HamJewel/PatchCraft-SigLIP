@@ -1,0 +1,8 @@
+numpy~=1.26.4
+pillow~=10.3.0
+opencv-python~=4.10.0.84
+pandas~=2.2.2
+tqdm~=4.66.4
+torch~=2.3.0
+torchvision~=0.18.0
+open_clip_torch
