@@ -40,8 +40,7 @@ def collate_fn(batch):
         rts.append(rt)
         pts.append(pt)
 
-    imgs = np.asarray(imgs, dtype='float32')  # (batch_size, 3, 512, 512)
-    labels = np.asarray(labels, dtype='float32')  # (batch_size, 2)
-    rts = np.asarray(rts, dtype='float32')[:, None]  # (batch_size, 1, 512, 512)
-    pts = np.asarray(pts, dtype='float32')[:, None]  # (batch_size, 1, 512, 512)
-    return torch.tensor(imgs), torch.tensor(labels), torch.tensor(rts), torch.tensor(pts)
+    labels = np.array(labels, dtype='float32')  # (batch_size, 2)
+    rts = np.array(rts, dtype='float32')[:, None]  # (batch_size, 1, 512, 512)
+    pts = np.array(pts, dtype='float32')[:, None]  # (batch_size, 1, 512, 512)
+    return torch.stack(imgs), torch.tensor(labels), torch.tensor(rts), torch.tensor(pts)

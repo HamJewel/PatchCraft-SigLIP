@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b3d05d-79a6-4020-9b8e-34bb80229969" name="更改" comment="" />
+    <list default="true" id="d4b3d05d-79a6-4020-9b8e-34bb80229969" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/dataset.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/AI-Detector" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -33,8 +36,8 @@
   &quot;keyToString&quot;: {
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/PycharmProjects/AI图像鉴别-国赛&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PycharmProjects/AI图像鉴别-国赛/testdata&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -45,6 +48,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\AI图像鉴别-国赛\testdata" />
       <recent name="D:\PycharmProjects\AI图像鉴别-国赛" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -124,6 +128,9 @@
       <workItem from="1731380328367" duration="141000" />
       <workItem from="1731382667753" duration="1790000" />
       <workItem from="1731413582511" duration="813000" />
+      <workItem from="1731440161844" duration="747000" />
+      <workItem from="1731516906874" duration="2779000" />
+      <workItem from="1731519822665" duration="98000" />
     </task>
     <servers />
   </component>
